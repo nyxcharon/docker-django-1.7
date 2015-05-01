@@ -18,5 +18,6 @@ RUN apt-get -y update && apt-get -y install \
     zlib1g-dev
     # End Pillow Libraries
 RUN pip install django==1.7
+EXPOSE 8000
 
 
